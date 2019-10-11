@@ -19,7 +19,7 @@ inline float getEmissions(float baseEmission, float x) {
 
 int main() {
 #ifdef PARSE_FROM_FILE
-    ifstream inputFile("../noCO2-meta/noCO2-core/json_samples/real_sample.json");
+    ifstream inputFile("../noCO2-meta/noCO2-core/json_samples/real_sample_car.json");
     if (!inputFile.is_open()) {
         cerr << "Error opening the file!" << endl;
         return FAILURE_EXIT;

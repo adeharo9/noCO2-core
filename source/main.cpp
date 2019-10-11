@@ -32,23 +32,30 @@ int main() {
 
     json& routes = root["routes"];
     json& legs = routes[0]["legs"];
-    json& steps = legs[0]["steps"];
 
-    float baseEmission = 120;
-    float emissions = 0;
-    for (json& step : steps) {
-        string travelMode = step["travel_mode"].get<string>();
-        if (travelMode == "DRIVING") {
-            float duration = step["duration"]["value"].get<float>();
-            float distance = step["distance"]["value"].get<float>();
-            float stepEmission = getEmissions(baseEmission, (distance/duration)*3.6f)*(distance/1000.f);
-            emissions += stepEmission;
-            step["emissions"] = stepEmission;
+    float totalEmissions = 0;
+    for (json& leg : legs) {
+        json& steps = legs[0]["steps"];
+
+        float baseEmission = 120;
+        float legEmissions = 0;
+        for (json& step : steps) {
+            string travelMode = step["travel_mode"].get<string>();
+            if (travelMode == "DRIVING") {
+                float duration = step["duration"]["value"].get<float>();
+                float distance = step["distance"]["value"].get<float>();
+                float stepEmission = getEmissions(baseEmission, (distance/duration)*3.6f)*(distance/1000.f);
+                legEmissions += stepEmission;
+                step["emissions"] = stepEmission;
+            }
+            else if (travelMode == "TRANSIT") {
+                json transitDetails = step["transit_details"];
+
+            }
         }
-        /*else if (travelMode == "TRANSIT") {
-            json transitDetails = step["transit_details"];
-        }*/
+        totalEmissions += legEmissions;
+        leg["emissions"] = legEmissions;
     }
-
+    routes[0]["emissions"] = totalEmissions;
     cout << root.dump();
 }

@@ -30,23 +30,25 @@ int main() {
     json root = json::parse(cin);
 #endif
 
-    json routes = root["routes"];
-
-    if (routes.is_null()) {
-        cout << "The json doesn't contain routes!" << endl;
-        return FAILURE_EXIT;
-    }
-
-    json legs = routes[0]["legs"];
-    json steps = legs[0]["steps"];
+    json& routes = root["routes"];
+    json& legs = routes[0]["legs"];
+    json& steps = legs[0]["steps"];
 
     float baseEmission = 120;
     float emissions = 0;
     for (json& step : steps) {
-        float duration = step["duration"]["value"].get<float>();
-        float distance = step["distance"]["value"].get<float>();
-        emissions += getEmissions(baseEmission, (distance/duration)*3.6f)*(distance/1000.f);
+        string travelMode = step["travel_mode"].get<string>();
+        if (travelMode == "DRIVING") {
+            float duration = step["duration"]["value"].get<float>();
+            float distance = step["distance"]["value"].get<float>();
+            float stepEmission = getEmissions(baseEmission, (distance/duration)*3.6f)*(distance/1000.f);
+            emissions += stepEmission;
+            step["emissions"] = stepEmission;
+        }
+        /*else if (travelMode == "TRANSIT") {
+            json transitDetails = step["transit_details"];
+        }*/
     }
 
-    cout << emissions;
+    cout << root.dump();
 }

@@ -30,6 +30,34 @@ int main() {
     json root = json::parse(cin);
 #endif
 
+    json& emission_index = root["emission_index"];
+
+    float baseEmission;
+
+    if (!emission_index.is_null()) {
+        string emissionIndex = emission_index.get<string>();
+
+        if (emissionIndex == "low") {
+            baseEmission = 90;
+        }
+        else if (emissionIndex == "med") {
+            baseEmission = 120;
+        }
+        else if (emissionIndex == "high") {
+            baseEmission = 180;
+        }
+        else if (emissionIndex == "hybrid") {
+            baseEmission = 40;
+        }
+        else if (emissionIndex == "electric") {
+            baseEmission = 5;
+        }
+        else
+            baseEmission = 120;
+    }
+    else
+        baseEmission = 120;
+
     json& routes = root["routes"];
 
     for (json& route : routes) {
@@ -47,7 +75,7 @@ int main() {
                 float speed = ((distance/duration)*3.6f);
                 float stepEmission = 0;
                 if (travelMode == "DRIVING") {
-                    stepEmission = getEmissions(120, speed);
+                    stepEmission = getEmissions(baseEmission, speed);
                 }
                 else if (travelMode == "TRANSIT") {
                     json& transitDetails = step["transit_details"];

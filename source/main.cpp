@@ -92,7 +92,7 @@ int main() {
                         stepEmission = getEmissions(120, speed);
                     }
                     else {
-                        route["warnings"].push_back("Test");
+                        route["warnings"].push_back("Found unsupported vehicle type" + vehicleType);
                     }
                 }
                 stepEmission *= distance/1000.f;
@@ -106,7 +106,6 @@ int main() {
         }
         json& emissionsObjet = (route["emissions"] = json::object());
         emissionsObjet["co2"] = totalEmissions;
-        route["warnings"].push_back("Test");
     }
     cout << root.dump();
     //cout << totalEmissions << endl;

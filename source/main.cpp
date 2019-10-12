@@ -37,25 +37,67 @@ int main() {
     for (json& leg : legs) {
         json& steps = legs[0]["steps"];
 
-        float baseEmission = 120;
         float legEmissions = 0;
         for (json& step : steps) {
             string travelMode = step["travel_mode"].get<string>();
+            float duration = step["duration"]["value"].get<float>();
+            float distance = step["distance"]["value"].get<float>();
+            float speed = ((distance/duration)*3.6f);
+            float stepEmission = 0;
             if (travelMode == "DRIVING") {
-                float duration = step["duration"]["value"].get<float>();
-                float distance = step["distance"]["value"].get<float>();
-                float stepEmission = getEmissions(baseEmission, (distance/duration)*3.6f)*(distance/1000.f);
-                legEmissions += stepEmission;
-                step["emissions"] = stepEmission;
+                stepEmission = getEmissions(120, speed);
             }
             else if (travelMode == "TRANSIT") {
-                json transitDetails = step["transit_details"];
-
+                json& transitDetails = step["transit_details"];
+                string vehicleType = transitDetails["line"]["vehicle"]["type"].get<string>();
+                if (vehicleType == "RAIL") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "METRO_RAIL") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "SUBWAY") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "TRAM") {
+                    stepEmission = (40.f/50.f);
+                }
+                else if (vehicleType == "MONORAIL") {
+                    stepEmission = (40.f/50.f);
+                }
+                else if (vehicleType == "HEAVY_RAIL") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "COMMUTER_TRAIN") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "HIGH_SPEED_TRAIN") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "LONG_DISTANCE_TRAIN") {
+                    stepEmission = (65.f/300.f);
+                }
+                else if (vehicleType == "BUS") {
+                    stepEmission = getEmissions(70/30, speed);
+                }
+                else if (vehicleType == "TROLLEYBUS") {
+                    stepEmission = (40.f/50.f);
+                }
+                else if (vehicleType == "INTERCITY_BUS") {
+                    stepEmission = getEmissions(70/40, speed);
+                }
+                else if (vehicleType == "SHARE_TAXI") {
+                    stepEmission = getEmissions(120, speed);
+                }
             }
+            stepEmission *= distance/1000.f;
+            legEmissions += stepEmission;
+            step["emissions"] = stepEmission;
         }
         totalEmissions += legEmissions;
         leg["emissions"] = legEmissions;
     }
     routes[0]["emissions"] = totalEmissions;
     cout << root.dump();
+    //cout << totalEmissions << endl;
 }

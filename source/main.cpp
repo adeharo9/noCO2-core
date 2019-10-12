@@ -112,13 +112,13 @@ int main() {
                         stepEmission = (65.f/300.f);
                     }
                     else if (vehicleType == "BUS") {
-                        stepEmission = getEmissions(70/30, speed);
+                        stepEmission = getEmissions(70.f/30.f, speed);
                     }
                     else if (vehicleType == "TROLLEYBUS") {
                         stepEmission = (40.f/50.f);
                     }
                     else if (vehicleType == "INTERCITY_BUS") {
-                        stepEmission = getEmissions(70/40, speed);
+                        stepEmission = getEmissions(70.f/40.f, speed);
                     }
                     else if (vehicleType == "SHARE_TAXI") {
                         stepEmission = getEmissions(120, speed);

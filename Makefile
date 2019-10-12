@@ -1,5 +1,5 @@
 CXX = g++
-CXX_FLAGS = -O3 -Icommon/libs/json/include
+CXX_FLAGS = -O3 -Icommon/json/include
 
-core: main.cpp
+core: source/main.cpp
 	$(CXX) $(CXX_FLAGS) $< -o $@

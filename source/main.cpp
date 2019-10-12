@@ -10,11 +10,11 @@ using json = nlohmann::json;
 //Emissions: g/km
 //Speed: km/h
 inline float getEmissions(float baseEmission, float x) {
-    float a = baseEmission/1200.f - 11.f/120.f;
-    float b = (110.f - baseEmission)/5.f + 3.f/2.f;
-    float c = (35.f*(baseEmission - 110.f))/6.f - 10.f;
+    float a = 1.f/150.f;
+    float b = -1.f/5.f;
+    float c = 120 - 80.f/3;
 
-    return a*x*x + b*x + c;
+    return (a*x*x + b*x + c)*(baseEmission/120);
 }
 
 int main() {

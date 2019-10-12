@@ -34,8 +34,9 @@ int main() {
 
     float baseEmission;
 
+    string emissionIndex = "med";
     if (!emission_index.is_null()) {
-        string emissionIndex = emission_index.get<string>();
+        emissionIndex = emission_index.get<string>();
 
         if (emissionIndex == "low") {
             baseEmission = 90;
@@ -75,7 +76,10 @@ int main() {
                 float speed = ((distance/duration)*3.6f);
                 float stepEmission = 0;
                 if (travelMode == "DRIVING") {
-                    stepEmission = getEmissions(baseEmission, speed);
+                    if (emissionIndex == "electric")
+                        stepEmission = baseEmission;
+                    else
+                        stepEmission = getEmissions(baseEmission, speed);
                 }
                 else if (travelMode == "TRANSIT") {
                     json& transitDetails = step["transit_details"];

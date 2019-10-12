@@ -1,0 +1,769 @@
+{
+   "geocoded_waypoints": [
+      {
+         "geocoder_status": "OK",
+         "place_id": "ChIJ0VQ8ixCWpBIRTxUuUY362Us",
+         "types": [
+            "street_address"
+         ]
+      },
+      {
+         "geocoder_status": "OK",
+         "place_id": "ChIJJYxmtryYpBIR1viYzlGyDGo",
+         "types": [
+            "street_address"
+         ]
+      }
+   ],
+   "routes": [
+      {
+         "bounds": {
+            "northeast": {
+               "lat": 41.4926696,
+               "lng": 2.1886965
+            },
+            "southwest": {
+               "lat": 41.35746719999999,
+               "lng": 2.1336561
+            }
+         },
+         "copyrights": "Map data ©2019 Inst. Geogr. Nacional",
+         "legs": [
+            {
+               "arrival_time": {
+                  "text": "1:09pm",
+                  "time_zone": "Europe/Madrid",
+                  "value": 1570878555
+               },
+               "departure_time": {
+                  "text": "11:58am",
+                  "time_zone": "Europe/Madrid",
+                  "value": 1570874307
+               },
+               "distance": {
+                  "text": "23.9 km",
+                  "value": 23883
+               },
+               "duration": {
+                  "text": "1 hour 11 mins",
+                  "value": 4248
+               },
+               "end_address": "Plaça de José Sánchez Rios, 28, 08038 Barcelona, Spain",
+               "end_location": {
+                  "lat": 41.35746719999999,
+                  "lng": 2.1347714
+               },
+               "start_address": "Carrer de Sant Enric, 17, 08290 Cerdanyola del Vallès, Barcelona, Spain",
+               "start_location": {
+                  "lat": 41.488774,
+                  "lng": 2.1340337
+               },
+               "steps": [
+                  {
+                     "distance": {
+                        "text": "1.3 km",
+                        "value": 1309
+                     },
+                     "duration": {
+                        "text": "16 mins",
+                        "value": 933
+                     },
+                     "end_location": {
+                        "lat": 41.492662,
+                        "lng": 2.1472711
+                     },
+                     "html_instructions": "Walk to Cerdanyola del Vallès",
+                     "polyline": {
+                        "points": "ygf|Fux_LCEEKKUIQGMCGQ_@EIKw@c@oCMw@Ik@Kk@WcBi@qDk@uDJESqBGo@Q{AMoA[wCM}@AIAECCCCGCH[}AsAa@g@Y_@EGs@}@OSu@aADiABeAHcACKAG?C?IB[[e@ACCCACCCWSm@U?AD[T}AHi@BUcA_@QGHo@VmBCCU]EI"
+                     },
+                     "start_location": {
+                        "lat": 41.488774,
+                        "lng": 2.1340337
+                     },
+                     "steps": [
+                        {
+                           "distance": {
+                              "text": "0.2 km",
+                              "value": 150
+                           },
+                           "duration": {
+                              "text": "2 mins",
+                              "value": 100
+                           },
+                           "end_location": {
+                              "lat": 41.48934879999999,
+                              "lng": 2.1356414
+                           },
+                           "html_instructions": "Head <b>northeast</b> on <b>Carrer de Sant Enric</b> toward <b>Carrer Tort</b>",
+                           "polyline": {
+                              "points": "ygf|Fux_LCEEKKUIQGMCGQ_@EIKw@c@oC"
+                           },
+                           "start_location": {
+                              "lat": 41.488774,
+                              "lng": 2.1340337
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "44 m",
+                              "value": 44
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 30
+                           },
+                           "end_location": {
+                              "lat": 41.4894739,
+                              "lng": 2.1361367
+                           },
+                           "html_instructions": "Continue straight onto <b>Plaça de Sant Ramon</b>",
+                           "maneuver": "straight",
+                           "polyline": {
+                              "points": "mkf|Fwb`LMw@Ik@"
+                           },
+                           "start_location": {
+                              "lat": 41.48934879999999,
+                              "lng": 2.1356414
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.2 km",
+                              "value": 221
+                           },
+                           "duration": {
+                              "text": "3 mins",
+                              "value": 155
+                           },
+                           "end_location": {
+                              "lat": 41.4900778,
+                              "lng": 2.138664
+                           },
+                           "html_instructions": "Continue onto <b>Carrer de les Escoles</b>",
+                           "polyline": {
+                              "points": "elf|F{e`LKk@WcBi@qDk@uD"
+                           },
+                           "start_location": {
+                              "lat": 41.4894739,
+                              "lng": 2.1361367
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "7 m",
+                              "value": 7
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 6
+                           },
+                           "end_location": {
+                              "lat": 41.4900188,
+                              "lng": 2.1386933
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Carrer de Santiago</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "_pf|Fsu`LJE"
+                           },
+                           "start_location": {
+                              "lat": 41.4900778,
+                              "lng": 2.138664
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.3 km",
+                              "value": 252
+                           },
+                           "duration": {
+                              "text": "3 mins",
+                              "value": 177
+                           },
+                           "end_location": {
+                              "lat": 41.4906322,
+                              "lng": 2.1415723
+                           },
+                           "html_instructions": "Turn <b>left</b> onto <b>Carrer d'Altimira</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "sof|Fyu`LSqBGo@Q{AMoA[wCM}@AIAECCCCGC"
+                           },
+                           "start_location": {
+                              "lat": 41.4900188,
+                              "lng": 2.1386933
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "13 m",
+                              "value": 13
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 10
+                           },
+                           "end_location": {
+                              "lat": 41.4905761,
+                              "lng": 2.1417074
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Av. de Sant Iscle</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "msf|FygaLH["
+                           },
+                           "start_location": {
+                              "lat": 41.4906322,
+                              "lng": 2.1415723
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.2 km",
+                              "value": 205
+                           },
+                           "duration": {
+                              "text": "2 mins",
+                              "value": 142
+                           },
+                           "end_location": {
+                              "lat": 41.4919925,
+                              "lng": 2.1432671
+                           },
+                           "html_instructions": "Turn <b>left</b> onto <b>Carrer de Cervantes</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "csf|FuhaL}AsAa@g@Y_@EGs@}@OSu@aA"
+                           },
+                           "start_location": {
+                              "lat": 41.4905761,
+                              "lng": 2.1417074
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.1 km",
+                              "value": 116
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 81
+                           },
+                           "end_location": {
+                              "lat": 41.4919017,
+                              "lng": 2.1446402
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Passeig de les Acàcies</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "}{f|FmraLDiABeAHcACKAG?C?IB["
+                           },
+                           "start_location": {
+                              "lat": 41.4919925,
+                              "lng": 2.1432671
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.2 km",
+                              "value": 156
+                           },
+                           "duration": {
+                              "text": "2 mins",
+                              "value": 129
+                           },
+                           "end_location": {
+                              "lat": 41.4922414,
+                              "lng": 2.1460571
+                           },
+                           "html_instructions": "Turn <b>left</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "k{f|F_{aL[e@ACCCACCCWSm@U?AD[T}AHi@BU"
+                           },
+                           "start_location": {
+                              "lat": 41.4919017,
+                              "lng": 2.1446402
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "51 m",
+                              "value": 51
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 37
+                           },
+                           "end_location": {
+                              "lat": 41.4926696,
+                              "lng": 2.1462611
+                           },
+                           "html_instructions": "Turn <b>left</b> toward <b>Avinguda de Catalunya</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "o}f|F{cbLcA_@QG"
+                           },
+                           "start_location": {
+                              "lat": 41.4922414,
+                              "lng": 2.1460571
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "68 m",
+                              "value": 68
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 46
+                           },
+                           "end_location": {
+                              "lat": 41.49250019999999,
+                              "lng": 2.1470466
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Avinguda de Catalunya</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "e`g|FcebLHo@VmB"
+                           },
+                           "start_location": {
+                              "lat": 41.4926696,
+                              "lng": 2.1462611
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "26 m",
+                              "value": 26
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 20
+                           },
+                           "end_location": {
+                              "lat": 41.492662,
+                              "lng": 2.1472711
+                           },
+                           "html_instructions": "Turn <b>left</b> to stay on <b>Avinguda de Catalunya</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "c_g|FajbLCCU]EI"
+                           },
+                           "start_location": {
+                              "lat": 41.49250019999999,
+                              "lng": 2.1470466
+                           },
+                           "travel_mode": "WALKING"
+                        }
+                     ],
+                     "travel_mode": "WALKING"
+                  },
+                  {
+                     "distance": {
+                        "text": "18.8 km",
+                        "value": 18796
+                     },
+                     "duration": {
+                        "text": "28 mins",
+                        "value": 1680
+                     },
+                     "end_location": {
+                        "lat": 41.37899850000001,
+                        "lng": 2.1399129
+                     },
+                     "html_instructions": "Train towards Vilafranca Del Penedès",
+                     "polyline": {
+                        "points": "o_g|FcmbLOULO^i@NUV]j@y@b@k@NSb@o@FIl@{@T[Zc@LQX_@BER[d@o@LS\\e@b@m@JOJM\\e@p@aAf@q@b@o@HGHQt@cAf@s@l@y@Va@h@u@h@u@n@{@d@q@f@s@p@_An@{@^i@\\g@PWHMNSLODIx@iA^g@RYLS^g@PWLOBEZc@V_@\\e@Zc@V]R[RWT]X_@Xa@LSLOJOPU^i@@CT[v@gAX_@\\g@h@w@BEBCDIPYT]@EZk@JUDIFMDKDOHUJUDQFQHYLg@Jg@Lk@DSJg@D]FYFe@Da@Da@Fm@B[?KDe@Bm@DcA@s@@u@A_@?_@Cs@Cw@ASG{@AQE_@AWKeAGo@Gm@KcAOcB?CEi@AKEi@E]Iw@?IEe@COC]E_@AOE[Gy@AGGm@AOIgAKeAMkAEe@?IGm@Go@Gm@Ei@Ky@CYEc@Gq@Gm@Ek@E_@E_@C[EWCWGk@Ks@OaAOcAIg@Mm@Qu@Mk@Su@W{@Qk@Qi@a@mA]cA[{@o@wBW_AIa@EWG]Ie@Io@Im@KmAIuACe@?g@Ai@?I@e@?WJeA@CHi@DWNm@H]FUBIJ[BK@A@CDKDKDIFMJSHMHOJOFGBEFGBCLQ@ALOLMZWLIPKBCRK\\OZKDAJCREDAPCTC^CZ?@?J?N?F?L@NBRBd@Fd@FJBB?TB^Dh@DT?P@T?R?`@Ab@C@?f@Ep@Kj@Kf@IB?b@IVEb@I^E\\CRAXAl@Cb@?p@@p@Bj@Fl@Hh@JXFHBXFXJPD\\Nb@Pd@Rp@`@p@d@^XTRPPNNRTLNRXXd@d@x@Xf@HLT^LRNXHNv@vA|@~Ar@nAx@pAx@lAp@`A~@lAp@z@XXNPTVFFNNb@`@^XNNRNb@XPJVNn@^^P^PTJTHd@P\\Jf@LhAT~@N\\HLBF@ZDb@Db@F`@@H?J?n@CR@B?LA^C^Gn@Mf@Kt@Sn@QdA[`@M`@Kv@ULEZIDAhA]~@[\\KBA^Qd@Sp@[?A^Q^Q@?h@[z@k@FE@@d@]n@g@d@a@f@e@f@g@b@e@d@i@d@m@d@m@d@q@nPcWZg@`@i@^e@d@g@d@e@d@_@RORORMTMRMRKRKTKTITIRIVIb@Kh@Kf@In@GrRo@b@?h@@n@Dp@Fr@L|d@nKdCf@tDt@hJrBtT`FtKhCjKdCjCn@`@Ff@DT@P@T?RAVCB?RETEvHwEvTmMr@_@XMJGLGJELEZKNGLCNEPGLCLCJCNCJCLANCNCNARARCPAR?PAf@?l@?jA?dA?dA?d@?hB?lC?hE@jG?zG?hH@`L?~N@vB@zK?hB@vA?jC?xA?fC?L?NCLCLCNE`Aa@zAk@TKVIVEZCvBBzBBbB@`DBF?FAHAPCNANANAP?R?R@T@pBNh@Bx@?\\AXA\\C\\EnFFzDJRBVFTHVJPJNJPLNNNPLRJVHVlEzMBNDJBJDHBHDHDJxKlRDJ{@d@xAfF~V||@l@_@rApEb@~Af@nB^rAvBlI@JBJBJBH@JfCxIRj@Nf@Rn@j@jCR~APpANhANhAXxB^tC~@pHz@rG~@lHjAhJbBbMfBzMr@hF~CjO^r@Tb@d@fAv@~Av@dBx@fBvDhIgAfA"
+                     },
+                     "start_location": {
+                        "lat": 41.4925566,
+                        "lng": 2.1475365
+                     },
+                     "transit_details": {
+                        "arrival_stop": {
+                           "location": {
+                              "lat": 41.37899850000001,
+                              "lng": 2.1399129
+                           },
+                           "name": "Barcelona Sants"
+                        },
+                        "arrival_time": {
+                           "text": "12:42pm",
+                           "time_zone": "Europe/Madrid",
+                           "value": 1570876920
+                        },
+                        "departure_stop": {
+                           "location": {
+                              "lat": 41.4925566,
+                              "lng": 2.1475365
+                           },
+                           "name": "Cerdanyola del Vallès"
+                        },
+                        "departure_time": {
+                           "text": "12:14pm",
+                           "time_zone": "Europe/Madrid",
+                           "value": 1570875240
+                        },
+                        "headsign": "Vilafranca Del Penedès",
+                        "line": {
+                           "agencies": [
+                              {
+                                 "name": "Renfe Cercanias",
+                                 "phone": "011 34 902 32 03 20",
+                                 "url": "http://www.renfe.com/viajeros/cercanias/index.html"
+                              }
+                           ],
+                           "color": "#f28120",
+                           "name": "Manresa -Sant Vicenc de Calders",
+                           "short_name": "R4",
+                           "text_color": "#000000",
+                           "vehicle": {
+                              "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                              "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/es-rodalies.png",
+                              "name": "Train",
+                              "type": "HEAVY_RAIL"
+                           }
+                        },
+                        "num_stops": 9
+                     },
+                     "travel_mode": "TRANSIT"
+                  },
+                  {
+                     "distance": {
+                        "text": "6 m",
+                        "value": 6
+                     },
+                     "duration": {
+                        "text": "1 min",
+                        "value": 4
+                     },
+                     "end_location": {
+                        "lat": 41.3798719,
+                        "lng": 2.1412302
+                     },
+                     "html_instructions": "Walk to Pl dels Països Catalans - Estació de Sants",
+                     "polyline": {
+                        "points": "}~p{F_faLGH"
+                     },
+                     "start_location": {
+                        "lat": 41.3798281,
+                        "lng": 2.1412766
+                     },
+                     "steps": [
+                        {
+                           "distance": {
+                              "text": "6 m",
+                              "value": 6
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 4
+                           },
+                           "end_location": {
+                              "lat": 41.3798719,
+                              "lng": 2.1412302
+                           },
+                           "html_instructions": "Head <b>northwest</b> on <b>Plaça dels Països Catalans</b>",
+                           "polyline": {
+                              "points": "}~p{F_faLGH"
+                           },
+                           "start_location": {
+                              "lat": 41.3798281,
+                              "lng": 2.1412766
+                           },
+                           "travel_mode": "WALKING"
+                        }
+                     ],
+                     "travel_mode": "WALKING"
+                  },
+                  {
+                     "distance": {
+                        "text": "3.0 km",
+                        "value": 3025
+                     },
+                     "duration": {
+                        "text": "12 mins",
+                        "value": 738
+                     },
+                     "end_location": {
+                        "lat": 41.362648,
+                        "lng": 2.134807
+                     },
+                     "html_instructions": "Bus towards Polígon Zona Franca",
+                     "polyline": {
+                        "points": "u~p{FydaLSc@FIZ]x@{@?C?EAKAECCGICCWWyAoBMQMOMWzB{C|AcC`A}Al@y@X_@DElAcBNUj@}@~AeC`@g@JTr@aANUHKt@eAFKLKHMLMMSLQt@_ALOJKLO@ABCFEDCFADCDAPC?F@F@D@FBD@DBD@DFHDFFDHDFBHBF@H?B?B?BAB?BAB?BADCD@B?@@@?@@B@LJNPd@p@b@j@zAtBV\\HNLLTVh@p@TTb@n@NTZd@~BfDRXRZRXrBvCT\\RZpBtCl@|@FHT^TZd@n@LP|A~B|@rAFF\\h@\\f@x@jAhA~AXb@NTn@~@@BBBBTBR@BDHHLFPZb@^j@LPT^LN@@HNLPJP@@NRBBBDDFLPp@bAh@x@FJv@lAVb@Xh@LVVF?@?@A??@?@?@A@?@?@?@AJ?H?J?H@JBHBHBFFHFFHDHBH@H?H?HAh@t@Zb@|BjDBCj@_ANUX]d@o@t@kAJL"
+                     },
+                     "start_location": {
+                        "lat": 41.379787,
+                        "lng": 2.141088
+                     },
+                     "transit_details": {
+                        "arrival_stop": {
+                           "location": {
+                              "lat": 41.362648,
+                              "lng": 2.134807
+                           },
+                           "name": "Radi - Ctra del Prat"
+                        },
+                        "arrival_time": {
+                           "text": "1:00pm",
+                           "time_zone": "Europe/Madrid",
+                           "value": 1570878018
+                        },
+                        "departure_stop": {
+                           "location": {
+                              "lat": 41.379787,
+                              "lng": 2.141088
+                           },
+                           "name": "Pl dels Països Catalans - Estació de Sants"
+                        },
+                        "departure_time": {
+                           "text": "12:48pm",
+                           "time_zone": "Europe/Madrid",
+                           "value": 1570877280
+                        },
+                        "headsign": "Polígon Zona Franca",
+                        "line": {
+                           "agencies": [
+                              {
+                                 "name": "TMB",
+                                 "phone": "011 34 902 07 50 27",
+                                 "url": "http://www.tmb.cat/"
+                              }
+                           ],
+                           "color": "#dc241f",
+                           "name": "Hospital Clínic / Polígon Zona Franca",
+                           "short_name": "109",
+                           "text_color": "#ffffff",
+                           "url": "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/109",
+                           "vehicle": {
+                              "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name": "Bus",
+                              "type": "BUS"
+                           }
+                        },
+                        "num_stops": 8
+                     },
+                     "travel_mode": "TRANSIT"
+                  },
+                  {
+                     "distance": {
+                        "text": "0.7 km",
+                        "value": 747
+                     },
+                     "duration": {
+                        "text": "9 mins",
+                        "value": 536
+                     },
+                     "end_location": {
+                        "lat": 41.35746719999999,
+                        "lng": 2.1347714
+                     },
+                     "html_instructions": "Walk to Plaça de José Sánchez Rios, 28, 08038 Barcelona, Spain",
+                     "polyline": {
+                        "points": "}sm{F_~_LHMh@s@NUDIrAr@N?xAv@PNx@x@DEDHJMHGb@WtA}@vAcA~AcAtDaCLb@l@nBBHHXZbAFRJIBF@F@ATj@RALI"
+                     },
+                     "start_location": {
+                        "lat": 41.3627061,
+                        "lng": 2.1348809
+                     },
+                     "steps": [
+                        {
+                           "distance": {
+                              "text": "62 m",
+                              "value": 62
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 44
+                           },
+                           "end_location": {
+                              "lat": 41.3623373,
+                              "lng": 2.1353715
+                           },
+                           "html_instructions": "Head <b>southeast</b> on <b>Carrer del Radi</b> toward <b>Carrer Arquitectura</b>",
+                           "polyline": {
+                              "points": "}sm{F_~_LHMh@s@NUDI"
+                           },
+                           "start_location": {
+                              "lat": 41.3627061,
+                              "lng": 2.1348809
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.2 km",
+                              "value": 166
+                           },
+                           "duration": {
+                              "text": "2 mins",
+                              "value": 118
+                           },
+                           "end_location": {
+                              "lat": 41.3610113,
+                              "lng": 2.1344593
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Ctra. del Prat</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "sqm{Faa`LrAr@N?xAv@PNx@x@"
+                           },
+                           "start_location": {
+                              "lat": 41.3623373,
+                              "lng": 2.1353715
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.3 km",
+                              "value": 333
+                           },
+                           "duration": {
+                              "text": "4 mins",
+                              "value": 241
+                           },
+                           "end_location": {
+                              "lat": 41.3584021,
+                              "lng": 2.1363051
+                           },
+                           "html_instructions": "Turn <b>left</b> onto <b>Carrer de l'Energia</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "iim{Fk{_LDEDHJMHGb@WtA}@vAcA~AcAtDaC"
+                           },
+                           "start_location": {
+                              "lat": 41.3610113,
+                              "lng": 2.1344593
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "0.1 km",
+                              "value": 139
+                           },
+                           "duration": {
+                              "text": "2 mins",
+                              "value": 97
+                           },
+                           "end_location": {
+                              "lat": 41.35775659999999,
+                              "lng": 2.1349242
+                           },
+                           "html_instructions": "Turn <b>right</b> onto <b>Carrer del Bronze</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "_yl{F}f`LLb@l@nBBHHXZbAFRJIBF@F"
+                           },
+                           "start_location": {
+                              "lat": 41.3584021,
+                              "lng": 2.1363051
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "5 m",
+                              "value": 5
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 4
+                           },
+                           "end_location": {
+                              "lat": 41.357746,
+                              "lng": 2.1349329
+                           },
+                           "html_instructions": "Turn <b>left</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "_ul{Fg~_L@A"
+                           },
+                           "start_location": {
+                              "lat": 41.35775659999999,
+                              "lng": 2.1349242
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "23 m",
+                              "value": 23
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 18
+                           },
+                           "end_location": {
+                              "lat": 41.3576412,
+                              "lng": 2.1347117
+                           },
+                           "html_instructions": "Turn <b>right</b>",
+                           "maneuver": "turn-right",
+                           "polyline": {
+                              "points": "}tl{Fi~_LTj@"
+                           },
+                           "start_location": {
+                              "lat": 41.357746,
+                              "lng": 2.1349329
+                           },
+                           "travel_mode": "WALKING"
+                        },
+                        {
+                           "distance": {
+                              "text": "19 m",
+                              "value": 19
+                           },
+                           "duration": {
+                              "text": "1 min",
+                              "value": 14
+                           },
+                           "end_location": {
+                              "lat": 41.35746719999999,
+                              "lng": 2.1347714
+                           },
+                           "html_instructions": "Turn <b>left</b>",
+                           "maneuver": "turn-left",
+                           "polyline": {
+                              "points": "gtl{F}|_LRALI"
+                           },
+                           "start_location": {
+                              "lat": 41.3576412,
+                              "lng": 2.1347117
+                           },
+                           "travel_mode": "WALKING"
+                        }
+                     ],
+                     "travel_mode": "WALKING"
+                  }
+               ],
+               "traffic_speed_entry": [],
+               "via_waypoint": []
+            }
+         ],
+         "overview_polyline": {
+            "points": "ygf|Fux_LcAyBaEcXJESqBYkCi@gFOgAEIKGH[}AsA{@gA_C{CHoCHcACKAKBe@c@q@[Wm@Wd@cDBUcA_@QGHo@VmBCC[g@Ru@OUl@y@vByCbE{FrLsPdZab@|IeMn@gAt@yA`@gAd@eBj@oCZ_CPwBPkE?uACsAOyC_AgKmA_NsBcUUsBg@yDy@oEkAiEmBwFgAwDOy@e@aDUcDCmA?qB\\kCd@kBRm@Xo@j@aAbAkA~@q@p@[ZKj@Mf@Gz@Cd@?vAPjANhAJf@@h@?dAEh@E|AWfBYtBUfAEtA@|AJvATvA^n@ThAd@bBfAt@l@bAfAl@~@~@`B|@zArDvGrB~CpBnCpB~BzArAxAdAfCrAnBr@pBb@|AXtAPdAHT?tAC~@KvAYlEoAbCq@lDgAzBcA`Ae@dBgAHCtAeAlAgAjAmAjAwAjA_BjQkX`AoAjAmA`BmApAs@tAi@z@UpAUn@GrRo@lA@`BLr@L|d@nKzH|A~_@tI`XnGjCn@`@F|@Ff@@bAKTEvHwEjVmN~@c@fA]|@Ut@MbAKjAGfF?~j@B|y@DtC?\\G\\I|CmAl@Ur@IxNLj@G`AEf@@fCPbBBv@Cz@IjLRj@Jl@T`@V`@\\\\d@Tn@zEbOTh@~KxR{@d@xAfF~V||@l@_@vBpH`E|OLl@~D|Mj@jCR~A`@zChCjSjHnj@zCdU~CjO^r@z@jBnBdEpFpLgAfAeDqGGHNZSc@FItAyA?CAQEIKMWWyAoB[a@MWzB{C~CaFfAyArAiBz@sA~AeC`@g@JTr@aAXa@|@qAVYLMMSbAqAX[Z[XKPC?FBLJXV\\PHPDTANCJAD@TNt@bA~B`DdArA~@fAr@dAbEbGnJhNhHjKlDdFp@bAFXDVNVFPZb@l@|@n@`Aj@x@vDzFp@lALVVF?@?@A@AD?DAj@Lf@NPRHR@RAdAxA|BjDBCz@uA~@mAt@kAJLKMHMx@iADIrAr@N?xAv@jAhADEDHTUpH}EtDaCLb@p@xBd@|AFRJIDNVh@RALI"
+         },
+         "summary": "",
+         "warnings": [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order": []
+      }
+   ],
+   "status": "OK"
+}

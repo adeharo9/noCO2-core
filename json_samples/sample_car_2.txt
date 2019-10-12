@@ -1,0 +1,190 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJM8vKSn6Et4cRv3f0WBq8e6g",
+            "types": [
+                "doctor",
+                "establishment",
+                "health",
+                "point_of_interest"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJLQR2EGaEt4cRSB6aA-wkyHo",
+            "types": [
+                "establishment",
+                "moving_company",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.045504,
+                    "lng": -95.6292428
+                },
+                "southwest": {
+                    "lat": 37.0362208,
+                    "lng": -95.6431204
+                }
+            },
+            "copyrights": "Map data ©2019",
+            "emissions": {
+                "co2": 93.76237487792969
+            },
+            "legs": [
+                {
+                    "distance": {
+                        "text": "1.4 mi",
+                        "value": 2268
+                    },
+                    "duration": {
+                        "text": "5 mins",
+                        "value": 277
+                    },
+                    "emissions": {
+                        "co2": 93.76237487792969
+                    },
+                    "end_address": "308 N Central St, Coffeyville, KS 67337, USA",
+                    "end_location": {
+                        "lat": 37.045504,
+                        "lng": -95.6292428
+                    },
+                    "start_address": "1717 W 8th St, Coffeyville, KS 67337, USA",
+                    "start_location": {
+                        "lat": 37.0362553,
+                        "lng": -95.6431204
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.3 mi",
+                                "value": 425
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 48
+                            },
+                            "emissions": {
+                                "co2": 17.36661720275879
+                            },
+                            "end_location": {
+                                "lat": 37.0362208,
+                                "lng": -95.63833009999999
+                            },
+                            "html_instructions": "Head <b>east</b> on <b>W 8th St</b> toward <b>Lewis St</b>",
+                            "polyline": {
+                                "points": "ss`aFnhwfQ@W?aC@kD@{H?eD?i@@kB"
+                            },
+                            "start_location": {
+                                "lat": 37.0362553,
+                                "lng": -95.6431204
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 mi",
+                                "value": 810
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 114
+                            },
+                            "emissions": {
+                                "co2": 33.206932067871094
+                            },
+                            "end_location": {
+                                "lat": 37.0435042,
+                                "lng": -95.6383208
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>S Buckeye St</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "ks`aFpjvfQ{@?o@?W?eA?WAkA?S?kA@U?mA?Y?cA?c@?}@?i@?kB?eB?aB?sAA[?K?yA?iB?_B?"
+                            },
+                            "start_location": {
+                                "lat": 37.0362208,
+                                "lng": -95.63833009999999
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 mi",
+                                "value": 803
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 71
+                            },
+                            "emissions": {
+                                "co2": 33.55751419067383
+                            },
+                            "end_location": {
+                                "lat": 37.0434349,
+                                "lng": -95.62927900000001
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>W 1st St</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "{`baFnjvfQ?uD?m@?yA?kC@iB@sD@mEB{I?sD@sD@uC"
+                            },
+                            "start_location": {
+                                "lat": 37.0435042,
+                                "lng": -95.6383208
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 mi",
+                                "value": 230
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 44
+                            },
+                            "emissions": {
+                                "co2": 9.63131332397461
+                            },
+                            "end_location": {
+                                "lat": 37.045504,
+                                "lng": -95.6292428
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>N Central St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "m`baF~qtfQcBA}@Ae@?mAAcB?c@A"
+                            },
+                            "start_location": {
+                                "lat": 37.0434349,
+                                "lng": -95.62927900000001
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "ss`aFnhwfQDaS?oE@kB{@?gA?}AAaE@iO?}EAcE?_B??uD?gC@uFFq[BiIaDC{FC"
+            },
+            "summary": "S Buckeye St and W 1st St",
+            "warnings": [
+                "Test"
+            ],
+            "waypoint_order": []
+        }
+    ],
+    "status": 200,
+    "status_details": {
+        "description": "OK",
+        "name": "OK"
+    }
+}
